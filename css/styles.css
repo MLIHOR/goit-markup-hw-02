@@ -1,0 +1,44 @@
+/* General Styles Index */
+.header-section {
+  background-color: #2e2f42;
+}
+.heading-motto {
+  color: #fff;
+  text-align: center;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px; /* 107.143% */
+  letter-spacing: 1.12px;
+}
+
+/* General Styles Portfolio*/
+.body {
+  background: #fff;
+  color: #2e2f42;
+}
+.project-list-heading {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+}
+
+color: var(--slate, #434455);
+
+.descr {
+  color: crimson;
+}
+
+.footer {
+  background: #2e2f42;
+}
+.footer-descr {
+  color: var(--cloud, #f4f4fd);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+}
