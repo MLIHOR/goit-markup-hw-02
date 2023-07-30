@@ -223,7 +223,13 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-/* BUTTONS */
+
+
+
+
+
+
+                                                           /* BUTTONS */
 
 .sub-menu-item{
   color: var(--iris);
@@ -234,16 +240,12 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   text-align: center;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5; /* 150% */
-  letter-spacing: 0.64px;
   cursor: pointer;
   } 
 
 .sub-menu-item:hover{
-background: var(--ocean);
-color: var(--white);
+  background: var(--ocean);
+  color: var(--white);
 }
 .sub-menu-item:focus{
   background: var(--ocean);
