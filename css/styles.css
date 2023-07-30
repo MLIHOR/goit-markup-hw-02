@@ -8,9 +8,17 @@
   --cloud:  #F4F4FD;
 }
 
-/* General Styles Index */
+
+
+
+                                                          /* Index Page*/
+
+
+
 
 /* HEADER */
+
+
 .header-list-item {
   list-style-type: none;
   color: var(--navyblue);
@@ -114,9 +122,15 @@ background: var(--ocean);
   }
   
 
-/* Section Two */
 
-.section-two-features {
+
+
+  /* Section Two */
+
+
+
+
+  .section-two-features {
   color: var(--navyblue);
   font-size: 20px;
   font-weight: 500;
@@ -135,7 +149,12 @@ background: var(--ocean);
   list-style-type: none;
 }
 
+
+
 /* Section Three */
+
+
+
 .section-three-heading {
   color: var(--navyblue);
   text-align: center;
@@ -155,7 +174,12 @@ background: var(--ocean);
   background-color: #FFFFFF;
 }
 
+
+
 /* Section Four */
+
+
+
 
 .section-four{
   background-color: #F4F4FD;
@@ -188,7 +212,11 @@ background: var(--ocean);
   letter-spacing: 0.32px;
 }
 
-/* General Styles Portfolio*/
+
+
+
+
+                                                      /* Portfolio Page*/
 body {
   background: #FFFFFF;
   color: #434455;
@@ -196,11 +224,10 @@ body {
 }
 
 /* BUTTONS */
-.sub-menu-item{
-background: var(--iris);
-}
+
 .sub-menu-main{
-  color: var(--white);
+  color: var(--iris);
+  background-color: var(--cloud);
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -211,9 +238,12 @@ background: var(--iris);
   font-weight: 500;
   line-height: 1.5px; /* 150% */
   letter-spacing: 0.64px;
+  cursor: pointer;
   } 
 
-
+.sub-menu-item{
+background: var(--iris);
+}
 .sub-menu-item:hover{
 background: var(--ocean);
 }
@@ -228,20 +258,25 @@ background: var(--ocean);
   text-align: center;
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.5px; /* 150% */
+  line-height: 1.5; /* 150% */
   letter-spacing: 0.64px;
   }
 
  
 /* PROJECT LIST */
 
+.list{
+  list-style: none;
+}
+
+
 .project-list-heading {
   color: var(--navyblue);
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.4px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 .project-list-item{
   list-style-type: none;
