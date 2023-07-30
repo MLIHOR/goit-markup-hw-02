@@ -32,13 +32,13 @@
 
 .header-menu-logo{
   color: var(--navyblue, #2E2F42);
-font-family: Raleway;
-font-size: 18px;
-font-weight: 800;
-line-height: 1.16; /* 116.667% */
-letter-spacing: 0.54px;
-text-transform: uppercase;
-text-decoration: none;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.16; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
 .header-list-link{
@@ -172,6 +172,7 @@ background: var(--ocean);
 .body {
   background: #fff;
   color: #434455;
+  font-family:;
 }
 
 /* BUTTONS */
