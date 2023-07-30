@@ -19,12 +19,12 @@
   line-height: 1.5; /* 150% */
   letter-spacing: 0.32px;
 }
-.header-menu-link{
+.link{
   color: var(--iris);
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
-  line-height: 1.16; /* 116.667% */
+  line-height: 1.17; /* 116.667% */
   letter-spacing: 0.54px;
   text-transform: uppercase;
   text-decoration: none;
@@ -32,10 +32,10 @@
 
 .header-menu-logo{
   color: var(--navyblue, #2E2F42);
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
-  line-height: 1.16; /* 116.667% */
+  line-height: 1.17; /* 116.667% */
   letter-spacing: 0.54px;
   text-transform: uppercase;
   text-decoration: none;
@@ -51,6 +51,9 @@ letter-spacing: 0.32px;
 
 }
 
+.list{
+  list-style: none;
+}
 .header-list-link:active{
  color: var(--ocean);
 font-size: 16px;
@@ -169,10 +172,10 @@ background: var(--ocean);
 }
 
 /* General Styles Portfolio*/
-.body {
-  background: #fff;
+body {
+  background: #FFFFFF;
   color: #434455;
-  font-family:;
+  font-family: "Roboto", sans-serif;
 }
 
 /* BUTTONS */
