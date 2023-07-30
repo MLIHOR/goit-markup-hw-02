@@ -206,14 +206,17 @@ background: var(--ocean);
 
 .sub-menu-descr{
   color: var(--white);
-  
- 
-text-align: center;
-font-size: 16px;
-font-weight: 500;
-line-height: 1.5px; /* 150% */
-letter-spacing: 0.64px;
-}
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5px; /* 150% */
+  letter-spacing: 0.64px;
+  }
 
  
 /* PROJECT LIST */
@@ -252,11 +255,11 @@ letter-spacing: 0.32px;
 
 .footer-menu-logo{
   color: var(--cloud);
-font-family: Raleway;
+font-family: 'Raleway', sans-serif;
 font-size: 18px;
 font-style: normal;
 font-weight: 800;
-line-height: 1.16; /* 116.667% */
+line-height: 1.17; /* 116.667% */
 letter-spacing: 0.54px;
 text-transform: uppercase;
 text-decoration: none;
