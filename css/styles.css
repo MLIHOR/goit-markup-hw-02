@@ -29,14 +29,15 @@
 }
 
 .link{
-  color: var(--iris);
-  font-family: "Raleway", sans-serif;
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 1.17; /* 116.667% */
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
   text-decoration: none;
+}
+.navlink{
+  color: var(--navyblue, #2E2F42);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.32px; 
 }
 
 .header-menu-logo{
@@ -50,20 +51,12 @@
   text-decoration: none;
 }
 
-.header-list-link{
-  text-decoration: none;
-  color: var(--navyblue, #2E2F42);
-font-size: 16px;
-font-weight: 500;
-line-height: 1.5; /* 150% */
-letter-spacing: 0.32px;
 
-}
 
 .list{
   list-style: none;
 }
-.header-list-link:active{
+.link:active{
  color: var(--ocean);
 font-size: 16px;
 font-weight: 500;
