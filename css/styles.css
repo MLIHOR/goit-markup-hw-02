@@ -97,11 +97,22 @@ letter-spacing: 0.32px;
 }
 .section-one-button {
 background: var(--iris);
+font-family: 'Roboto', sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #ffffff
 }
 .section-one-button:hover{
 background: var(--ocean);
 
 }
+.section-one-button:focus{
+  background: var(--ocean);
+  
+  }
+  
 
 /* Section Two */
 
@@ -109,7 +120,7 @@ background: var(--ocean);
   color: var(--navyblue);
   font-size: 20px;
   font-weight: 500;
-  line-height: 1.5; /* 120% */
+  line-height: 1.2; /* 120% */
   letter-spacing: 0.4px;
 }
 .section-two-paragraf {
@@ -141,9 +152,14 @@ background: var(--ocean);
 
 .section-four-item {
   list-style-type: none;
+  background-color: #FFFFFF;
 }
 
 /* Section Four */
+
+.section-four{
+  background-color: #F4F4FD;
+}
 
 .section-four-heading {
   color: var(--navyblue);
