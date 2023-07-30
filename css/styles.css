@@ -110,7 +110,8 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
-color: #ffffff
+color: #ffffff;
+cursor: pointer;
 }
 .section-one-button:hover{
 background: var(--ocean);
