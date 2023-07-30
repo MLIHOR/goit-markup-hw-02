@@ -19,6 +19,23 @@
   line-height: 1.5; /* 150% */
   letter-spacing: 0.32px;
 }
+.header-list-item:hover {
+  list-style-type: none;
+  color: #404bbf;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.32px;
+}
+.header-list-item:focus {
+  list-style-type: none;
+  color: #404bbf;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.32px;
+}
+
 .link{
   color: var(--iris);
   font-family: "Raleway", sans-serif;
