@@ -199,6 +199,20 @@ body {
 .sub-menu-item{
 background: var(--iris);
 }
+.sub-menu-main{
+  color: var(--white);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5px; /* 150% */
+  letter-spacing: 0.64px;
+  } 
+
 
 .sub-menu-item:hover{
 background: var(--ocean);
