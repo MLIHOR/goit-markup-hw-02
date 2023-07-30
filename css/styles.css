@@ -225,7 +225,7 @@ body {
 
 /* BUTTONS */
 
-.sub-menu-main{
+.sub-menu-item{
   color: var(--iris);
   background-color: var(--cloud);
   font-family: "Roboto", sans-serif;
@@ -236,31 +236,22 @@ body {
   text-align: center;
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.5px; /* 150% */
+  line-height: 1.5; /* 150% */
   letter-spacing: 0.64px;
   cursor: pointer;
   } 
 
-.sub-menu-item{
-background: var(--iris);
-}
 .sub-menu-item:hover{
 background: var(--ocean);
+color: var(--white);
 }
-
-.sub-menu-descr{
+.sub-menu-item:focus{
+  background: var(--ocean);
   color: var(--white);
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  text-align: center;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5; /* 150% */
-  letter-spacing: 0.64px;
   }
+  
+
+
 
  
 /* PROJECT LIST */
