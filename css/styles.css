@@ -10,12 +10,10 @@
   }
 
 body{
-    body {
-        background: var(--white);
-        color: var(--slate);
-        font-family: 'Roboto', sans-serif;
-      }
-  }
+    background: var(--white);
+    color: var(--slate);
+    font-family: 'Roboto', sans-serif;
+}
 
 
 .list{
@@ -139,7 +137,6 @@ cursor: pointer;
 
 
 
-}
 /* ----------------------------------------------------INDEX SECTION TWO----------------------------------------------------------- */
 
 .section-two-features{
@@ -148,6 +145,7 @@ cursor: pointer;
     font-weight: 500;
     line-height: 1.2; /* 120% */
     letter-spacing: 0.02em;
+    
 }
 
 .section-two-paragraf{
