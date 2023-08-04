@@ -32,7 +32,6 @@ body{
     color: var(--iris);
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
-    font-style: normal;
     font-weight: 800;
     line-height: 1.17; /* 116.667% */
     letter-spacing: 0.03em;
@@ -40,20 +39,10 @@ body{
 }
 .second-logo-link{
     color: var(--navyblue);
-    font-family: 'Raleway', sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: 1.17; /* 116.667% */
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
 }
 
 .nav-list{
     color: var(--navyblue);
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
     font-weight: 500;
     line-height: 1.5; /* 150% */
     letter-spacing: 0.02em;
@@ -61,9 +50,6 @@ body{
 
 .header-list-link{
     color: var(--navyblue);
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
     font-weight: 500;
     line-height: 1.5; /* 150% */
     letter-spacing: 0.02em;
@@ -82,8 +68,7 @@ body{
 
 .address-list-link{
     color: var(--slate);
-    font-size: 16px;
-    font-weight: 400;
+ 
     line-height: 1.5; /* 150% */
     letter-spacing: 0.02em;
 }
@@ -116,11 +101,7 @@ letter-spacing: 0.02em;
 
 .section-one-button{
 background: var(--iris);
-font-family: 'Roboto', sans-serif;
 color: var(--white);
-
-font-size: 16px;
-font-style: normal;
 font-weight: 500;
 line-height: 1.5; /* 150% */
 letter-spacing: 0.04em;
@@ -150,8 +131,6 @@ cursor: pointer;
 
 .section-two-paragraf{
     color: var(--slate);
-    font-size: 16px;
-    font-weight: 400;
     line-height: 1.5; /* 150% */
     letter-spacing: 0.02em;
 }
@@ -206,9 +185,6 @@ cursor: pointer;
 .section-four-position{
     color: var(--slate);
     text-align: center;
-
-    font-size: 16px;
-    font-weight: 400;
     line-height: 1.5; /* 150% */
     letter-spacing: 0.02em;
 }
@@ -229,10 +205,6 @@ background: var(--cloud);
 
 color: var(--iris);
 text-align: center;
-
-font-family: 'Roboto', sans-serif;
-font-size: 16px;
-font-style: normal;
 font-weight: 500;
 line-height: 1.5; /* 150% */
 letter-spacing: 0.04em;
@@ -263,31 +235,11 @@ color: var(--white);
 
 .project-list-paragraf{
     color: var(--slate);
-
-    font-size: 16px;
-    font-weight: 400;
     line-height: 1.5; /* 150% */
     letter-spacing: 0.02em;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* -------------------------------------------------------PORTFOLIO SECTION ONE LIST----------------------------------------------- */
-/* -------------------------------------------------------PORTFOLIO SECTION ONE LIST----------------------------------------------- */
-/* -------------------------------------------------------PORTFOLIO SECTION ONE LIST----------------------------------------------- */
 
 /* ---------------------------------------------------------FOOTER----------------------------------------------------------------- */
 .footer{
@@ -295,20 +247,10 @@ color: var(--white);
 }
 .second-logo-footer{
     color: var(--cloud);
-    font-family: 'Raleway', sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: 21px; /* 116.667% */
-    letter-spacing: 0.54px;
-    text-transform: uppercase;
+    
 }
 .footer-descr{
     color: var(--cloud);
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 24px; /* 150% */
     letter-spacing: 0.32px;
 }
