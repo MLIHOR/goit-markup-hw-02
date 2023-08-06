@@ -80,10 +80,6 @@ body{
 }
 
 
-
-
-
-
 /* -----------------------------------------------------INDEX SECTION ONE---------------------------------------------------------- */
 
 .section-one{
@@ -102,6 +98,8 @@ letter-spacing: 0.02em;
 .section-one-button{
 background: var(--iris);
 color: var(--white);
+font-family: 'Roboto', sans-serif;
+font-style: normal;
 font-weight: 500;
 line-height: 1.5; /* 150% */
 letter-spacing: 0.04em;
@@ -202,7 +200,8 @@ background: var(--white);
 
 .sub-menu-item{
 background: var(--cloud);
-
+font-family: 'Roboto', sans-serif;
+font-style: normal;
 color: var(--iris);
 text-align: center;
 font-weight: 500;
